@@ -1,0 +1,5 @@
+-keep class com.cycletrack.app.** { *; }
+-keep class org.osmdroid.** { *; }
+-dontwarn org.osmdroid.**
+-keep class com.google.android.gms.** { *; }
+-dontwarn com.google.android.gms.**
